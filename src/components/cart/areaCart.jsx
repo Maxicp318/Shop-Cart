@@ -5,7 +5,6 @@ import HomeIcon from "@mui/icons-material/Home";
 import { useEffect, useState } from "react";
 import { obtenerArrayDesdeLocalStorage, eliminarElementoPorId, actualizarCantidad, calcularPrecioTotal } from "../utils/logicAreaCart";
 
-// eslint-disable-next-line react/prop-types
 const AreaCart = () => {
 
   const [total, setTotal] = useState();
@@ -16,9 +15,7 @@ const AreaCart = () => {
   };
 
   const handleActualizarCantidad = (id, nuevaCantidad) => {
-    
     actualizarCantidad(miArray, id, nuevaCantidad, setMiArray);
-    
   };
 
   useEffect(() => {
@@ -36,7 +33,7 @@ const AreaCart = () => {
                 X
               </Button>
               <p className={styles.prod}>
-                {c.imagen} {c.nombre} ${c.precio} Cant:{c.cant}
+                {c.imagen} ${c.precio} Cant:{c.cant}
               </p>
               <Button className={styles.btnCount} variant="contained" onClick={() => 
                 handleActualizarCantidad(c.id, c.cant + 1)}>

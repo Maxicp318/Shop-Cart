@@ -2,6 +2,9 @@ import frutas from "../../productos.json";
 import styles from "./listaCard.module.css";
 import CardFruta from "./cardFruta";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { Button } from "@mui/material";
+import Cart from "../cart/cart";
 
 // eslint-disable-next-line react/prop-types
 function ListaFrutas({ agregarCantDesdeApp }) {
@@ -23,6 +26,11 @@ function ListaFrutas({ agregarCantDesdeApp }) {
 
   return (
     <ul className={styles.containerCards}>
+      <Link className={styles.btn}  to={"/cart"}>
+        <Button variant="contained">
+          <Cart cant={carrito.length} />
+        </Button>
+      </Link>
       {frutas.map((f) => (
         <CardFruta
           key={f.id}

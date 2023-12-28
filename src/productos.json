@@ -4,7 +4,8 @@
         "imagen": "🍌",
         "nombre": "Bananas",
         "precio": 220,
-        "cant": 1
+        "cant": 1,
+        "silabas":"Ban.."
     },
 
     {
@@ -12,7 +13,8 @@
         "imagen": "🍎",
         "nombre": "Manzanas",
         "precio": 200,
-        "cant": 1
+        "cant": 1,
+        "silabas":"Man.."
     },
 
     {
@@ -20,7 +22,8 @@
         "imagen": "🥝",
         "nombre": "Kiwis",
         "precio": 280,
-        "cant": 1
+        "cant": 1,
+        "silabas":"Kiw.."
     },
 
     {
@@ -28,7 +31,8 @@
         "imagen": "🍈",
         "nombre": "Melón",
         "precio": 350,
-        "cant": 1
+        "cant": 1,
+        "silabas":"Mel.."
     },
 
     {
@@ -36,7 +40,8 @@
         "imagen": "🍍",
         "nombre": "Piñas",
         "precio": 320,
-        "cant": 1
+        "cant": 1,
+        "silabas":"Piñ.."
     },
 
     {
@@ -44,7 +49,8 @@
         "imagen": "🍅",
         "nombre": "Tomates",
         "precio": 140,
-        "cant": 1
+        "cant": 1,
+        "silabas":"Tom.."
     },
 
     {
@@ -52,7 +58,8 @@
         "imagen": "🥥",
         "nombre": "Cocos",
         "precio": 270,
-        "cant": 1
+        "cant": 1,
+        "silabas":"Coc.."
     },
 
     {
@@ -60,7 +67,8 @@
         "imagen": "🍉",
         "nombre": "Sandias",
         "precio": 200,
-        "cant": 1
+        "cant": 1,
+        "silabas":"San.."
     },
 
     {
@@ -68,7 +76,8 @@
         "imagen": "🍑",
         "nombre": "Duraznos",
         "precio": 310,
-        "cant": 1
+        "cant": 1,
+        "silabas":"Dur.."
     },
 
     {
@@ -76,7 +85,8 @@
         "imagen": "🫐",
         "nombre": "Arandanos",
         "precio": 650,
-        "cant": 1
+        "cant": 1,
+        "silabas":"Ara.."
     },
 
     {
@@ -84,7 +94,8 @@
         "imagen": "🥭",
         "nombre": "Mango",
         "precio": 290,
-        "cant": 1
+        "cant": 1,
+        "silabas":"Man.."
     },
 
     {
@@ -92,7 +103,8 @@
         "imagen": "🍇",
         "nombre": "Uvas",
         "precio": 700,
-        "cant": 1
+        "cant": 1,
+        "silabas":"Uva.."
     },
 
     {
@@ -100,15 +112,17 @@
         "imagen": "🍐",
         "nombre": "Peras",
         "precio": 320,
-        "cant": 1
+        "cant": 1,
+        "silabas":"Per.."
     },
 
     {
         "id": 14,
         "imagen": "🍒",
         "nombre": "Cerezas",
-        "precio": 1100,
-        "cant": 1
+        "precio": 900,
+        "cant": 1,
+        "silabas":"Cer.."
     },
 
     {
@@ -116,7 +130,8 @@
         "imagen": "🍓",
         "nombre": "Frutillas",
         "precio": 600,
-        "cant": 1
+        "cant": 1,
+        "silabas":"Fru.."
     },
 
     {
@@ -124,6 +139,7 @@
         "imagen": "🍋",
         "nombre": "Limones",
         "precio": 260,
-        "cant": 1
+        "cant": 1,
+        "silabas":"Lim.."
     }
 ]
