@@ -1,0 +1,18 @@
+.card {
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #2196F3;
+    width: 80%;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.img {
+    font-size: 4rem;
+}
+
+.nombre {
+    color: #ffffff;
+}

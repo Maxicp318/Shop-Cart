@@ -1,0 +1,43 @@
+.containerCart {
+    min-height: 100vh;
+    display: grid;
+}
+
+.ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 0;
+    margin: 0;
+}
+
+.li {
+    display: flex;
+    align-self: flex-start;
+    padding: 0.3rem;
+}
+
+.prod {
+    margin: 0;
+    color: white;
+    padding-right: 0.5rem;
+}
+
+.btnCount {
+    margin-right: 0.2rem !important;
+    margin-left: 0.2rem !important;
+    align-self: center;
+}
+
+.btn {
+    height: 2rem;
+    width: 25vh;
+    justify-self: center;
+}
+
+.btnInicio {
+    position: fixed !important;
+    bottom: 1vh;
+    left: 1vw;
+    width: 4rem;
+    height: 4rem;
+}
