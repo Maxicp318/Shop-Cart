@@ -13,6 +13,7 @@
 .li {
     display: flex;
     align-self: flex-start;
+    justify-content: center;
     padding: 0.3rem;
 }
 
